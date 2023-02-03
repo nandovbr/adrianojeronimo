@@ -17,9 +17,9 @@ export default function Home() {
         <Routes>
           <Route path="/" element={<Library />} />
           <Route path="/feed" element={<Feed />} />
-          <Route path="/tendencias" element={<Trending />} />
+          <Route path="/trending" element={<Trending />} />
           <Route path="/player" element={<Player />} />
-          <Route path="/favoritos" element={<Favorites />} />
+          <Route path="/favorites" element={<Favorites />} />
         </Routes>
       </div>
     </Router>
