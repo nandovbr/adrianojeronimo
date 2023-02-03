@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Library() {
   return (
-    <div>Library Aqui</div>
+    <div className="screen-container">Library Aqui</div>
   )
 }

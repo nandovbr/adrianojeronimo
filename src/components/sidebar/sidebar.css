@@ -1,4 +1,49 @@
 .sidebar-container {
   width: 100px;
   height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none !important; /* remove as linhas de baixo do link */
+}
+
+.btn-body {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  color: #04968e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px auto;
+  transition: all 0.4s ease;
+  background-color: rgba(244, 187, 146, 0.0);
+}
+
+.btn-body:hover { /* muda a cor do botão ao passar o mouse */
+  color: #05dacf;
+}
+
+.btn-title {
+  margin: 4px auto;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-body.active {
+  background-color: #04968e;
+  color: #fff;
+  transform: scale(1.0);
 }
