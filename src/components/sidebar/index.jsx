@@ -15,14 +15,14 @@ export default function Sidebar() {
       />
 
       <div>
-        <SidebarButton title="Feed" to="/feed" icon={ <MdSpaceDashboard /> } />
-        <SidebarButton title="Trendig" to="/trendig" icon={ <FaGripfire /> } />
+        <SidebarButton title="Sobre" to="/sobre" icon={ <MdSpaceDashboard /> } />
+        <SidebarButton title="Lancamento" to="/lancamento" icon={ <FaGripfire /> } />
         <SidebarButton title="Player" to="/player" icon={ <FaPlay /> } />
-        <SidebarButton title="Favorites" to="/favorites" icon={ <MdFavorite /> } />
+        <SidebarButton title="Videos" to="/videos" icon={ <MdFavorite /> } />
         <SidebarButton title="Library" to="/library" icon={ <IoLibrary /> } />
       </div>
 
-      <SidebarButton title="Sign Out" to="" icon={ <FaSignOutAlt /> } />
+      {/* <SidebarButton title="Sign Out" to="/sobre" icon={ <FaSignOutAlt /> } /> */}
     </div>
   )
 }
