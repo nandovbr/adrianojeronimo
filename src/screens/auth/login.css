@@ -1,0 +1,29 @@
+.login-page {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.spotify-logo {
+  width: 200px;
+}
+
+.btn-login {
+  width: 200px;
+  padding: 15px 0px;
+  border-radius: 50px;
+  text-align: center;
+  background-color: aliceblue;
+  color: black;
+  font-weight: 600;
+  margin-top: 20%;
+}
+
+a {
+  text-decoration: none;
+}
