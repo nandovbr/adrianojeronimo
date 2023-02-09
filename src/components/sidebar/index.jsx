@@ -4,7 +4,7 @@ import './sidebar.css';
 import SidebarButton from './sidebarButton';
 import { MdOndemandVideo, MdSpaceDashboard } from 'react-icons/md';
 import { IoLibrary } from 'react-icons/io5';
-import { FaGripfire, FaSpotify } from 'react-icons/fa';
+import { FaGripfire, FaSignOutAlt, FaSpotify } from 'react-icons/fa';
 import apiClient from '../../spotify';
 
 export default function Sidebar() {
@@ -20,9 +20,9 @@ export default function Sidebar() {
   return (
     <div className='sidebar-container'>
       <img
-        src={ image }
+        src={image}
         className="profile-img"
-        alt="Foto do Adriano Jeronimo"
+        alt="profile"
       />
 
       <div>
@@ -30,10 +30,10 @@ export default function Sidebar() {
         <SidebarButton title="Lancamento" to="/lancamento" icon={ <FaGripfire /> } />
         <SidebarButton title="Spotify" to="/player" icon={ <FaSpotify /> } />
         <SidebarButton title="Videos" to="/videos" icon={ <MdOndemandVideo /> } />
-        <SidebarButton title="Biblioteca" to="/library" icon={ <IoLibrary /> } />
+        <SidebarButton title="Library" to="/library" icon={ <IoLibrary /> } />
       </div>
 
-      {/* <SidebarButton title="Sign Out" to="/sobre" icon={ <FaSignOutAlt /> } /> */}
+        <SidebarButton title="Sign Out" to="/sobre" icon={ <FaSignOutAlt /> } />
     </div>
   )
 }
