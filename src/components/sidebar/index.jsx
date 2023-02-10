@@ -5,25 +5,25 @@ import SidebarButton from './sidebarButton';
 import { MdOndemandVideo, MdSpaceDashboard } from 'react-icons/md';
 import { IoLibrary } from 'react-icons/io5';
 import { FaGripfire, FaSignOutAlt, FaSpotify } from 'react-icons/fa';
-import apiClient from '../../spotify';
+// import apiClient from '../../spotify';
 
 export default function Sidebar() {
 
-  const [image, setImage] = useState("https://i.postimg.cc/W3WFHkCr/perfil.png");
+  // const [image, setImage] = useState("https://i.postimg.cc/W3WFHkCr/perfil.png");
 
-  useEffect(() => {
-    apiClient.get("me").then((response) => {
-      setImage(response.data.images[0].url);
-    });
-  }, []);
+  // useEffect(() => {
+  //   apiClient.get("me").then((response) => {
+  //     setImage(response.data.images[0].url);
+  //   });
+  // }, []);
 
   return (
     <div className='sidebar-container'>
-      <img
+      {/* <img
         src={image}
         className="profile-img"
         alt="profile"
-      />
+      /> */}
 
       <div>
         <SidebarButton title="Sobre" to="/sobre" icon={ <MdSpaceDashboard /> } />
