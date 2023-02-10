@@ -3,9 +3,10 @@ import './home.css';
 import Library from '../library/index';
 import Sobre from '../sobre/index';
 import Lancamento from '../lancamento/index';
-import Player from '../player/index';
+import Player from '../../components/Spotify';
 import Videos from '../videos/index';
 import Sidebar from '../../components/sidebar/index';
+// import spotifyAPI from '../../components/Spotify'
 
 export default function Home() {
 
@@ -18,7 +19,7 @@ export default function Home() {
           <Route path="/" element={<Library />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/lancamento" element={<Lancamento />} />
-          <Route path="/player" element={<Player />} />
+          <Route path="/player" element={<Player/>} />
           <Route path="/videos" element={<Videos />} />
         </Routes>
       </div>
