@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './home.css';
 import Library from '../library/index';
@@ -9,6 +8,7 @@ import Videos from '../videos/index';
 import Sidebar from '../../components/sidebar/index';
 
 export default function Home() {
+
   return (
     <Router>
       <div className="main-body">
@@ -23,5 +23,6 @@ export default function Home() {
         </Routes>
       </div>
     </Router>
+
   )
 }
