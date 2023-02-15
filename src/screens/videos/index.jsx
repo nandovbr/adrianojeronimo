@@ -7,6 +7,7 @@ export default function Videos() {
       Videos Aqui
 
       <ReactPlayer url="https://www.youtube.com/watch?v=tjHIkyKyo_E" />
+      <ReactPlayer url="https://www.youtube.com/watch?v=tjHIkyKyo_E" />
     </div>
   )
 }
