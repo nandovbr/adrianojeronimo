@@ -8,14 +8,14 @@ export default function Player() {
       <div className="music-container">
         <img src="https://i.postimg.cc/wjDdX0xr/Rei-da-Gl-ria.jpg" className="music-image" />
         <div className="music">
-          <audio src={ require("./musicas/musica-Adriano.mp3") } controls />
+          <audio src={ require("./musicas/musica-Adriano.mp3") } controls controlsList="nodownload" />
         </div>
       </div>
 
       <div className="music-container">
       <img src="https://i.postimg.cc/wjDdX0xr/Rei-da-Gl-ria.jpg" className="music-image" />
         <div className="music">
-          <audio src={ require("./musicas/musica-Adriano.mp3") } controls />
+          <audio src={ require("./musicas/testeaudio.ogg") } controls controlsList="nodownload" />
         </div>
       </div>
     </div>
