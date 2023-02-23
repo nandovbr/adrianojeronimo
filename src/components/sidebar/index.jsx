@@ -8,11 +8,11 @@ import { FaGripfire, FaPlay } from 'react-icons/fa';
 export default function Sidebar() {
   return (
     <div className='sidebar-container'>
-      <img
+      {/* <img
         src="https://i.postimg.cc/W3WFHkCr/perfil.png"
         className="profile-img"
         alt="profile"
-      />
+      /> */}
 
       <div>
         <SidebarButton title="Sobre" to="/sobre" icon={ <MdSpaceDashboard /> } />

@@ -23,7 +23,7 @@ a {
   width: 80px;
   height: 80px;
   border-radius: 20px;
-  color: #04968e;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,7 +34,7 @@ a {
 }
 
 .btn-body:hover { /* muda a cor do botão ao passar o mouse */
-  color: #05dacf;
+  color: #e6de79;
 }
 
 .btn-title {
@@ -44,7 +44,7 @@ a {
 }
 
 .btn-body.active {
-  background-color: #04968e;
+  background-color: #292929;
   color: #fff;
   transform: scale(1.0);
 }
